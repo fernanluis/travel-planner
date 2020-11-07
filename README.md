@@ -9,3 +9,12 @@ For calling the APIs, we’ll be using the excon gem.
 Rails version: 6.0.3.4
 
 Ruby version: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
+
+Search:
+https://github.com/fernanluis/travel-planner/blob/master/Search
+
+Not found:
+https://github.com/fernanluis/travel-planner/blob/master/Not%20found
+
+Details:
+https://github.com/fernanluis/travel-planner/blob/master/Details
