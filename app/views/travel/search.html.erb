@@ -1,0 +1,30 @@
+<h4>Country info</h4>
+<dl> <!-- lista descriptiva-->
+  <dt>Country</dt><!-- grupo de términos-->
+  <dd><%= @country['name'] %></dd>
+
+  <dt>Capital</dt>
+  <dd><%= @country['capital'] %></dd><!-- proveídas con elementos-->
+
+  <dt>Currency</dt>
+  <dd><%= @country['currencies'].join(', ') %></dd>
+
+  <dt>Timezone(s)</dt>
+  <dd><%= @country['timezones'].join(', ') %></dd>
+</dl>
+
+
+
+<h4>Weather Info</h4>
+
+<dl>
+  <% @weather['list'].each do |weather| %>
+    <dt><%= weather['dt_txt'] %></dt>
+    <dd>
+      <!--Creamos un to_fahrenheitayudante, que es necesario para
+      convertir la temperatura que obtuvimos de Kelvin a Fahrenheit:-->
+      <strong>Min</strong> <%= to_fahrenheit weather['main']['temp_min'] %>
+      <strong>Max</strong> <%= to_fahrenheit weather['main']['temp_max'] %>
+    </dd>
+  <% end %>
+</dl>
