@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How To Use an API with Ruby on Rails
 
-Things you may want to cover:
+Simple travel planner. This app will allow the user to enter a country of destination and will show them some key details about it (the currency and timezone, for example), plus some weather information. I'm skipping ActiveRecord, since our application won’t be using a database.
 
-* Ruby version
+For calling the APIs, we’ll be using the excon gem.
 
-* System dependencies
+Rails version: 6.0.3.4
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ruby version: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
