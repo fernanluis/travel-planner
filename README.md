@@ -10,11 +10,11 @@ Rails version: 6.0.3.4
 
 Ruby version: ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]
 
-Search:
-https://github.com/fernanluis/travel-planner/blob/master/Search
+Search  for a country:
+https://github.com/fernanluis/travel-planner/blob/master/Search%20for%20a%20country.png
 
-Not found:
-https://github.com/fernanluis/travel-planner/blob/master/Not%20found
+Country not found:
+https://github.com/fernanluis/travel-planner/blob/master/Country%20not%20found.png
 
 Details:
-https://github.com/fernanluis/travel-planner/blob/master/Details
+https://github.com/fernanluis/travel-planner/blob/master/Details.png
